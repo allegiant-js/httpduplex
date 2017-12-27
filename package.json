@@ -1,6 +1,6 @@
 {
     "name": "@allegiant/httpduplex",
-    "version": "0.3.5",
+    "version": "0.3.6",
     "description": "Unifies http request and response streams.",
     "author": "echopoint <echopoint@tutanota.com>",
     "contributors": [],
@@ -13,7 +13,6 @@
         "type": "git",
         "url": "git+https://github.com/allegiant-js/httpduplex.git"
     },
-    "preferGlobal": true,
     "main": "index.js",
     "engine": {
         "node": ">= 6"

@@ -1,3 +1,7 @@
+# 0.3.6 (12/28/2017)
+
+- include example, remove npm prefer global, republished
+
 # 0.3.5 (12/27/2017)
 
 - backported slight update for headers, docs and repo split.
