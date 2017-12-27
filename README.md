@@ -13,7 +13,7 @@ npm install @allegiant/httpduplex
 
 The following example can be found at example/index.js
 
-```
+```js
 const fs = require('fs');
 const http = require('http');
 const httpDuplex = require('@allegiant/httpduplex');
