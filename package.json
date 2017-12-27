@@ -1,0 +1,35 @@
+{
+    "name": "@allegiant/httpduplex",
+    "version": "0.3.5",
+    "description": "Unifies http request and response streams.",
+    "author": "echopoint <echopoint@tutanota.com>",
+    "contributors": [],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/allegiant-js/httpduplex/issues"
+    },
+    "homepage": "https://github.com/allegiant-js/httpduplex#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/allegiant-js/httpduplex.git"
+    },
+    "preferGlobal": true,
+    "main": "index.js",
+    "engine": {
+        "node": ">= 6"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "tape test/*.js",
+        "coverage": "tape test/*.js --coverage --coverage-report=lcov",
+        "generate-docs": "tryitout && jsdoc -c jsdoc.json"
+    },
+    "devDependencies": {
+        "docdash": "^0.4.0",
+        "eslint": "^4.12.1",
+        "jsdoc": "^3.5.5",
+        "request": "^2.83.0",
+        "tape": "^4.8.0",
+        "tryitout": "^1.2.2"
+    }
+}

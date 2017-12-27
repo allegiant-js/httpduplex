@@ -1,0 +1,7 @@
+.DS_Store
+node_modules
+coverage
+example
+package-lock.json
+*.tgz
+*.log
