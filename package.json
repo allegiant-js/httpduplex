@@ -19,8 +19,8 @@
     },
     "scripts": {
         "lint": "eslint .",
-        "test": "tape test/*.js",
-        "coverage": "tape test/*.js --coverage --coverage-report=lcov",
+        "test": "tap test/*.js",
+        "coverage": "tap test/*.js --coverage",
         "generate-docs": "tryitout && jsdoc -c jsdoc.json"
     },
     "devDependencies": {
@@ -28,7 +28,7 @@
         "eslint": "^4.12.1",
         "jsdoc": "^3.5.5",
         "request": "^2.83.0",
-        "tape": "^4.8.0",
+        "tap": "^11.0.1",
         "tryitout": "^1.2.2"
     }
 }

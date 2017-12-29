@@ -3,6 +3,10 @@
 > Unifies http request and response streams.
 >> There be 🐲 here! The API and functionality are being cemented, anything before a 1.0.0 release is subject to change.
 
+[![Npm Version](https://img.shields.io/npm/v/@allegiant/httpduplex.svg)](https://www.npmjs.com/package/@allegiant/httpduplex)
+[![Build Status](https://travis-ci.org/allegiant-js/httpduplex.svg?branch=master)](https://travis-ci.org/allegiant-js/httpduplex.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/allegiant-js/httpduplex/badge.svg?branch=master)](https://coveralls.io/github/allegiant-js/httpduplex?branch=master)
+
 ## Install
 
 ```

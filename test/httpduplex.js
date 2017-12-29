@@ -1,4 +1,4 @@
-var test = require('tape').test;
+var test = require('tap').test;
 var httpDuplex = require('../index');
 var http = require('http');
 var request = require('request');

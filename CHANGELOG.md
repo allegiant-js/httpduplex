@@ -1,3 +1,7 @@
+# 0.3.7 (12/29/2017)
+
+- added travis-ci and coverage via coveralls, replaced tape with tap
+
 # 0.3.6 (12/28/2017)
 
 - include example, remove npm prefer global, republished
