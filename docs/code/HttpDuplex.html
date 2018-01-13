@@ -131,7 +131,10 @@
     
         <p class="code-caption">A simple example is shown below</p>
     
-    <pre class="prettyprint"><code>http.createServer(function (req, res) {    var dup = new HttpDuplex(req, res);    res.end("Request: " + req.method + " " + req.url);}).listen(80);</code></pre>
+    <pre class="prettyprint"><code>http.createServer(function (req, res) {
+    var dup = new HttpDuplex(req, res);
+    res.end("Request: " + req.method + " " + req.url);
+}).listen(80);</code></pre>
 
 
 
@@ -1733,7 +1736,10 @@ Trailers will only be emitted if chunked encoding is enabled for the response; o
 
     <h5>Example</h5>
     
-    <pre class="prettyprint"><code>request.cork();request.write('buffer data ');request.write('before sending ');request.uncork();</code></pre>
+    <pre class="prettyprint"><code>request.cork();
+request.write('buffer data ');
+request.write('before sending ');
+request.uncork();</code></pre>
 
 
 
@@ -3434,7 +3440,8 @@ the data was buffered in memory.</p>
     <dt class="tag-see">See:</dt>
     <dd class="tag-see">
         <ul>
-            <li><a href="https://nodejs.org/api/http.html#http_response_writecontinue">response.writeContinue</a><a href="https://nodejs.org/api/http.html#http_event_checkcontinue">http.Server/checkContinue</a></li>
+            <li><a href="https://nodejs.org/api/http.html#http_response_writecontinue">response.writeContinue</a>
+<a href="https://nodejs.org/api/http.html#http_event_checkcontinue">http.Server/checkContinue</a></li>
         </ul>
     </dd>
     
@@ -3551,7 +3558,12 @@ the data was buffered in memory.</p>
 
     <h5>Example</h5>
     
-    <pre class="prettyprint"><code>var content = 'Under Construction...';response.writeHead(200, {    'Content-Length': Buffer.byteLength(content),    'Content-Type': 'text/plain' });response.end(content);</code></pre>
+    <pre class="prettyprint"><code>var content = 'Under Construction...';
+response.writeHead(200, {
+    'Content-Length': Buffer.byteLength(content),
+    'Content-Type': 'text/plain' 
+});
+response.end(content);</code></pre>
 
 
 
